@@ -1,0 +1,79 @@
+body {
+    background-image: url('pexels-scott-webb-3255761.jpg');
+    background-color: #f8f9fa;
+    padding-top: 50px;
+}
+
+.addBooks{
+    width: 60%;
+    margin-top: 20px;
+    background-color: #92bdeb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+.addNum{
+    width: 60%;
+    margin-top: 20px;
+    background-color: #92bdeb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+.container{
+    position: relative;
+    width: 60%;
+    margin-top: 20px;
+    background-color: #92bdeb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+#Editbtn, #savebtn{
+    border: 1px Solid #3a99b1;
+    background:#3a99b1;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+    margin-top: 40px;
+    margin-bottom: 26px ;
+    border-radius: 5px;
+}
+#Deletebtn ,#closebtn{
+    border: 1px Solid #611717;
+    background:#ec4242;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+    margin-top: 40px;
+    margin-bottom: 26px ;
+    border-radius: 5px;
+}
+
+.table{
+    display: none;
+}
+
+.btnAddNum {
+    margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 10px;
+    }
+
+}
+.addBooks{
+    display: none;
+}
+#closebtn ,#savebtn{
+    display: none;
+}
+
+small{
+    opacity:0;
+    color: red;
+}  
